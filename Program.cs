@@ -14,12 +14,17 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseDefaultFiles();
 app.UseStaticFiles();
 
+
 app.UseRouting();
+
+app.MapControllers();
 
 app.UseAuthorization();
 
 app.MapRazorPages();
+
 
 app.Run();
