@@ -8,7 +8,7 @@ namespace Dad_Joke_generator.Models
         {
             using var client = new HttpClient();
             client.DefaultRequestHeaders.Add("Accept", "application/json");
-            client.DefaultRequestHeaders.Add("User-Agent", "My Library (https://github.com/kemmojr/Dad-Joke-generator)");
+            client.DefaultRequestHeaders.Add("User-Agent", "My Library (https://github.com/kemmojr/Dad-Joke-generator-DotNet7)");
             try
             {
 
